@@ -1,7 +1,19 @@
-# Virtual environment
-venv/
-.env
+
 __pycache__/
-db.sqlite3
 *.pyc
 *.pyo
+*.pyd
+
+
+venv/
+.env
+
+
+db.sqlite3
+
+
+.vscode/
+
+
+**/migrations/*.py
+!**/migrations/__init__.py
